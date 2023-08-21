@@ -1,0 +1,17 @@
+body {
+    font-family: "Pretendard", sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.container canvas {
+    margin-right: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+.container h3 {
+    margin-top: 0;
+}
