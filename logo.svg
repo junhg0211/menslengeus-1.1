@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="121.926" ry="121.926" fill="#2c2c2c"/>
+  <g>
+    <polyline points="122.025 256 256 389.975 389.975 389.975 122.025 122.025 389.975 122.025 389.975 256 256 122.025 256 256" fill="none" stroke="#fdde59" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+    <line x1="256" y1="389.975" x2="389.975" y2="256" fill="none" stroke="#fdde59" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+    <line x1="122.025" y1="389.975" x2="389.975" y2="122.025" fill="none" stroke="#fdde59" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+  </g>
+</svg>
