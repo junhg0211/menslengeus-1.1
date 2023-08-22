@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function updateCurrent(to) {
         current = to;
-        padId.innerText = current;
+        padId.value = current;
     }
 
     let startAnchor = -1;
@@ -196,6 +196,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     window.addEventListener("resize", initPad);
+
+    padId.addEventListener("change", e => {
+        current = event.target.value;
+    });
 
     pad.addEventListener("mousemove", e => {
         x = e.offsetX;
